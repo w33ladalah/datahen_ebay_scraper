@@ -1,0 +1,7 @@
+exporter_name: products_last10_json
+exporter_type: json
+collection: products
+write_mode: pretty_array
+limit: 10
+offset: 0
+order: desc

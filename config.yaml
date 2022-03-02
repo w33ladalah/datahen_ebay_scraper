@@ -5,3 +5,13 @@ parsers:
   - page_type: listings
     file: ./parser/listings.rb
     disabled: false
+  - page_type: details
+    file: ./parser/details.rb
+    disabled: false
+exporters:
+  - file: ./exporter/products_last10_json.yaml
+    disabled: false
+  - file: ./exporter/products_json.yaml
+    disabled: false
+  - file: ./exporter/products_csv.yaml
+    disabled: false
