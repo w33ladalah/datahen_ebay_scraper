@@ -9,7 +9,7 @@ parsers:
     file: ./parser/details.rb
     disabled: false
 exporters:
-  - file: ./exporter/products_last10_json.yaml
+  - file: ./exporter/products_last10.yaml
     disabled: false
   - file: ./exporter/products_json.yaml
     disabled: false
